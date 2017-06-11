@@ -1,0 +1,113 @@
+html {
+  font-size: 16px;
+  font-family: "Century Gothic", sans-serif;
+}
+* {box-sizing: border-box;
+}
+body {
+  padding: 2em;
+  background: lightgray;
+}
+header {
+  background-image: url('../images/Gig-Harbor-Banner.jpg');
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: repeat-x;
+  display: flex;
+  flex-flow: wrap;
+  font-size: 1.5rem;
+  width: 100%;
+  padding: 1em;
+  border: 0;
+}
+header a {
+  font-size: 1.2rem;
+  color: white; 
+  padding: 0 1em 5em 0;
+  align-content: space-around;
+}
+h1 {
+  color:darkblue;
+  font-size: 28pt;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: flex-end;
+}
+ul i {
+  color: white;
+}
+@media only screen and (max-width: 600px) {
+header {
+  justify-content: center;
+  background-image: url('../images/Gig-Harbor-Banner-Cropped.jpg');
+  }  
+}
+@media only screen and (max-width: 600px) {
+ul {
+  justify-content: flex-start;
+  flex-flow: wrap;
+  padding: 1rem;
+  }  
+}
+li a:active {
+  color: limegreen;
+}
+h1 {
+  color: white;
+  letter-spacing: 1px;
+  text-align: center;
+  font-size: 3rem;
+  /*padding: 2rem;*/
+}
+@media only screen and (max-width: 600px) { 
+  h1 {
+    font-size: 1rem;
+    font-weight: bold; 
+    text-transform: uppercase;
+    padding: 1rem;
+  }
+}
+section {
+  align-content: center;
+  background-color: whitesmoke;
+}
+h2 {
+  color: darkslateblue;
+  font-size: 4rem;
+  align-content: center;
+  text-align: center;
+  padding: 0.5rem;
+}
+@media only screen and (max-width: 600px) { 
+  h2 {
+    font-size: 2rem;
+    font-weight: bold; 
+  }
+}
+
+
+
+form {
+  padding: 1em;
+  color: white;
+  background-color: limegreen;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
