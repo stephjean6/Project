@@ -141,3 +141,6 @@ input[type="button"] {
 input[type="button"]:hover {
   background-color: mediumseagreen;
 }
+img:hover {
+   transform: rotate(180deg);
+}
