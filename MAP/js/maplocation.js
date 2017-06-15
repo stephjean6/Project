@@ -5,16 +5,16 @@ function setLocation() {
   var value =$(this).val();
   switch (value) {
   case 'Java':
-      $('#myMap').attr('src','https://www.openstreetmap.org/?mlat=47.33021&mlon=-122.58196#map=19/47.33021/-122.58196');
+      $('#myMap').attr('src','http://staticmap.openstreetmap.de/staticmap.php?size=1000x800&center=47.2688,-122.5508&zoom=15&markers=47.2688,-122.5508,ol-marker-blue&maptype=mapnik');
     break;
   case 'Jax':
-    $('#myMap').attr('src','https://www.openstreetmap.org/?mlat=47.32961&mlon=-122.58061#map=19/47.32961/-122.58061');
+    $('#myMap').attr('src','http://staticmap.openstreetmap.de/staticmap.php?size=1000x800&center=47.32961,-122.58061&zoom=18&markers=47.32961,-122.58061,ol-marker-blue&maptype=mapnik');
     break;
   case 'Tides':
-    $('#myMap').attr('src','https://www.openstreetmap.org/?mlat=47.32933&mlon=-122.57843#map=19/47.32933/-122.57842');
+    $('#myMap').attr('src','http://staticmap.openstreetmap.de/staticmap.php?size=1000x800&center=47.32933,-122.57842&zoom=18&markers=47.32933,-122.57842,ol-marker-blue&maptype=mapnik');
     break;
-  case 'Harbor':
-    $('#myMap').attr('src','https://www.openstreetmap.org/?mlat=47.32918&mlon=-122.58173#map=19/47.32918/-122.58173');
+  case 'Park':
+    $('#myMap').attr('src','http://staticmap.openstreetmap.de/staticmap.php?size=1000x800&center=47.3081,-122.6867&zoom=15&markers=47.3081,-122.6867,ol-marker-blue&maptype=mapnik');
     break;
   default:
     console.log('Sorry, Gig Harbor is closed.');
